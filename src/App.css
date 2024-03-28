@@ -159,62 +159,6 @@ margin:0%
 
 
 
-/* Accommodations section styles */
-.card-container1{
-  background-color: rgba(50, 50, 50, 0.7);
-  color: white;
-  border-radius: 9px;
-  position: absolute;
-  text-align: center;
-  justify-content: center;
-  margin: 0px;
-  top: 30%;
-  left: 5%;
-  right: 5%;
-  padding: 20px;
-
-
-}
-.card-container1 p{
-  font-size: 22px;
-}
-.caption{
-  color:white;
-  font-size:26pt;
-  text-align:center;
-  font-weight:500;
-  
-  }
-.background1{
-  /* background-image: url('https://i.pinimg.com/originals/08/4d/52/084d5225eebf26b670972cfa3768595c.jpg'); */
-  background-image: url('https://images.unsplash.com/photo-1617104678098-de229db51175?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=914&q=80');
-  background-size:cover;
-  background-repeat: no-repeat;
-height:100vh;
-overflow: hidden;
-margin:0%
-}
-#accommodations {
-  padding: 40px;
-}
-
-.accommodation-card {
- 
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  padding: 40px;
-  background-color: #f9f9f9;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
- 
-}
-
-.accommodation-card img {
-  max-width: 100vh;
-  height: auto;
-  margin-bottom: 10px;
-
-
-}
 .room-btn{
   cursor: pointer;
   font-size: 15px;
@@ -409,18 +353,23 @@ h2 {
     margin-top: 20px; /* Adjusted margin for smaller screens */
     margin-left: 5%; /* Adjusted margin for smaller screens */
     margin-right: 5%; /* Adjusted margin for smaller screens */
+    
+  }
+
+  .card-about p{
+    font-size: 10pt;
   }
 
   .text h3 {
-    font-size: 22px; /* Adjusted font size for smaller screens */
+    font-size: 22px; 
   }
 
   .text p {
-    font-size: 18px; /* Adjusted font size for smaller screens */
-    margin-bottom: 25px; /* Adjusted margin for smaller screens */
+    font-size: 18px; 
+    margin-bottom: 25px; 
   }
 
   .text ul {
-    font-size: 18px; /* Adjusted font size for smaller screens */
+    font-size: 18px; 
   }
 }
