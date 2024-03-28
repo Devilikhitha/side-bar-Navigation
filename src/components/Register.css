@@ -1,0 +1,53 @@
+
+.register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 8%;
+    width:400px;
+    margin-bottom: 5%;
+    
+  }
+  
+  .loginadmin {
+    margin-bottom: 20px;
+  }
+  
+  .regishead {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .regisform {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+  }
+  
+  .regisform label {
+    margin-bottom: 10px;
+  }
+  
+  .regisform input {
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .regisbtn {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .already {
+    margin-top: 20px;
+  }
+  .register {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    border-radius: 20px; 
+  }
